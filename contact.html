@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<title>contact</title>
+<style>
+.navbar{
+    width:100%;
+    background-color:cyan;
+    float:left;
+    height:20%;
+  }
+  h1{
+  margin-right:130px;
+  }
+ a{
+ text-decoration:none;
+    float:left;
+    margin-right:0px;
+    margin-top:30px;
+    margin-left:45px;
+  }
+  button{
+  background-color:#1ad1ff;
+ }
+.navbar1{
+text-align:center;
+height:80%;
+}
+</style>
+<script>
+function myFunction(){
+document.getElementById("demo").innerHTML="The people who have Diabetics they can donate eyes but who died with Aids can not donate eyes";
+}
+function myFunction1(){
+document.getElementById("demo1").innerHTML="The whole eye ball can doante";
+}
+function myFunction2(){
+document.getElementById("demo2").innerHTML="People can donate eyes who are blind but cornea is healthy";
+}
+function myFunction3(){
+document.getElementById("demo3").innerHTML="People can donate eyes who are blind but cornea is healthy";
+		}
+</script>
+</head>
+<body>
+<div class="navbar">
+<h1 style="float:left"><i>EyeBank</i></h1>
+<a href="AdminLogin.html" >Home</a>
+<a href="About.html">About Us</a>
+<a href="Donor.html">Donor</a>
+<a href="Acceptor.html">Acceptor</a>
+<a href="contact.html">Contactus</a>						
+</div> 
+<div class="navbar1">
+<p >Who can donate eyes?</p>
+<p id="demo"></p>
+<button  type="button" onclick="myFunction()">...</button>
+ <p >Which part of eye we can donate?</p>
+ <p id="demo1"></p>
+<button  onclick="myFunction1()">...</button>
+<p>Can a living person donate his  eyes?</p>
+<p id="demo2"></p>
+<button  onclick="myFunction2()">...</button>
+<p>Can cancer patients  eyes?</p>
+<p id="demo3"></p>
+<button  onclick="myFunction3()">...</button> 
+
+</div>
+</body>
+</html>
